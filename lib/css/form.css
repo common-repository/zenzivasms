@@ -1,0 +1,72 @@
+/*
+#send_sms{ padding-top:10px;}
+#send_sms ul.sms_form{padding:0px !important; margin:0px !important;}
+#send_sms ul.sms_form li{list-style:none !important; display:block; padding:0px 0xp 10px 0px !important;}
+#send_sms ul.sms_form li label{display:block; font-weight:bold;}
+#send_sms ul.sms_form li input[type=text], #send_sms ul.sms_form li textarea{display:block; width:100% !important; padding:2% !important; max-width:300px !important;}
+#send_sms ul.sms_form li label.error{color:#900; font-size:11px !important;}
+
+#send_sms #sms_msg_box{ padding:2px;-webkit-border-radius: 5px;border-radius: 5px; margin-top:5px; margin-bottom:5px;}
+#send_sms #sms_msg_box.err{border:1px solid #900; background:#ff9393; color:#000;}
+#send_sms #sms_msg_box.ok{border:1px solid #030; background:#060;color:#fff;}
+*/
+
+#form-div{ padding-top:10px;}
+#form-div ul.sms_form{padding:0px !important; margin:0px !important;}
+#form-div ul.sms_form li{list-style:none !important; display:block; padding:0px 0xp 10px 0px !important;}
+
+#form-div ul.sms_form li label.field{display:block; color: #999999; font-size:12px;}
+#form-div ul.sms_form li label.error{display:block; color:#900; font-size:10px !important; font-weight:italic;}
+
+#form-div ul.sms_form li input[type=text]{width: 397px; max-width: 397px;}
+#form-div #capt{width: 155px; max-width: 155px;}
+
+#form-div #sms_msg_box{ padding:2px;-webkit-border-radius: 5px;border-radius: 5px; margin-top:5px; margin-bottom:5px;}
+#form-div #sms_msg_box.err{border:1px solid #900; background:#ff9393; color:#000;}
+#form-div #sms_msg_box.ok{border:1px solid #030; background:#060;color:#fff;}
+
+textarea { 
+	width: 400px;
+	max-width: 400px;
+	height: 150px;
+	line-height: 150%;
+	}
+
+input:hover, textarea:hover,
+input:focus, textarea:focus { 
+-moz-box-shadow:0 0 8px lightblue;
+	-webkit-box-shadow:0 0 8px lightblue;
+	box-shadow:0 0 8px lightblue;
+}
+
+#form-div #title { 
+	margin-bottom: 15px;
+	font-size: 24px;
+	color: #999999; 
+	}
+
+.submit input {
+	margin-top: 20px;
+	width: auto;
+	padding: 5px 24px;
+	background: #617798;
+	font-size: 14px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor:pointer;
+	}
+#form-div { 
+-moz-border-radius:12px 12px 12px 12px;
+-webkit-border-radius: 12px 12px 12px 12px;
+border: solid 1px #E5E5E5;
+padding:15px;
+-webkit-box-shadow:0 0 6px lightblue;
+	box-shadow:0 0 6px lightblue;
+}
+
+#wrapper { 
+margin:30px auto;
+width:500px;
+}
